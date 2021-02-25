@@ -1,7 +1,7 @@
 <template>
   <div>
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
-    <hr />
+    <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <hr class="mt-20" /> -->
     <Grid />
   </div>
 </template>
@@ -14,7 +14,7 @@ import Grid from "./components/Grid.vue";
 export default Vue.extend({
   name: "App",
   components: {
-    HelloWorld,
+    //HelloWorld,
     Grid
   }
 });
