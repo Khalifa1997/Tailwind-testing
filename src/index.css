@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ant-table-thead > tr > th {
+  @apply bg-red-400;
+  background-color: rgb(206, 35, 35);
+  @apply border-0;
+}
+.ant-table-row td {
+  @apply mb-3;
+}
